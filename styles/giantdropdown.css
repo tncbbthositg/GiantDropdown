@@ -1,0 +1,65 @@
+ul.giantdropdown
+{
+	border: 2px solid #666;
+	padding: 0px;
+	width: 600px;
+	height: 150px;
+	overflow-y: scroll;
+	font-size: 14px;
+	background: #ebebeb url("../images/GiantDropdownBack.png") repeat-x left bottom;
+}
+
+ul.giantdropdown li
+{
+	padding: 6px;
+	list-style: none;
+	border-bottom: 1px solid #666;
+}
+
+ul.giantdropdown li.optgroup
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+ul.giantdropdown li.option
+{
+	padding-left: 30px;
+	background: transparent url('../images/Radio_Button.png') no-repeat left center;
+}
+
+ul.giantdropdown li.option:hover
+{
+	background-image: url('../images/Radio_Button_Hover.png');
+}
+
+ul.giantdropdown li.option.selected
+{
+	background-image: url('../images/Radio_Button_Selected_Light_Blue.png');
+}
+
+ul.giantdropdown li.option.selected:hover
+{
+	background-image: url('../images/Radio_Button_Selected_Hover.png');
+}
+
+
+ul.giantdropdown.multiple li.option
+{
+	background-image: url('../images/Check_Box.png');
+}
+
+ul.giantdropdown.multiple li.option:hover
+{
+	background-image: url('../images/Check_Box_Hover.png');
+}
+
+ul.giantdropdown.multiple li.option.selected
+{
+	background-image: url('../images/Check_Box_Selected.png');
+}
+
+ul.giantdropdown.multiple li.option.selected:hover
+{
+	background-image: url('../images/Check_Box_Selected_Hover.png');
+}
