@@ -61,10 +61,14 @@
 
                 $.each($dropdown.find('option, optgroup'), function() {
                     var option = this;
+					var $option = $(option);
 
                     var $li = $("<li />");
                     $li.addClass(option.tagName.toLowerCase());
-
+					
+					$li.addClass($option.attr("class"));
+					$li.attr("style", $option.attr("style"));
+					
                     if (option.tagName === "OPTGROUP")
                         $li.text(option.label);
 
