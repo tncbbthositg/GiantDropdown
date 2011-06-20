@@ -24,8 +24,8 @@ ul.giantdropdown li.optgroup
 
 ul.giantdropdown li.option
 {
-	padding-left: 30px;
-	background: transparent url('../images/Radio_Button.png') no-repeat left center;
+	padding-left: 33px;
+	background: transparent url('../images/Radio_Button.png') no-repeat 3px center;
 }
 
 ul.giantdropdown li.option:hover
@@ -43,6 +43,9 @@ ul.giantdropdown li.option.selected:hover
 	background-image: url('../images/Radio_Button_Selected_Hover.png');
 }
 
+
+
+/* Multiselect Styles */
 
 ul.giantdropdown.multiple li.option
 {
@@ -62,4 +65,25 @@ ul.giantdropdown.multiple li.option.selected
 ul.giantdropdown.multiple li.option.selected:hover
 {
 	background-image: url('../images/Check_Box_Selected_Hover.png');
+}
+
+
+
+
+/* Thumbtack Styles */
+
+ul.giantdropdown.thumbtacks li.option
+{
+	background-image: none;
+}
+
+ul.giantdropdown.thumbtacks li.option:hover
+{
+	background-image: url('../images/Thumbtack.png');
+}
+
+ul.giantdropdown.thumbtacks li.option.selected,
+ul.giantdropdown.thumbtacks li.option.selected:hover
+{
+	background-image: url('../images/Thumbtack_Stuck.png');
 }

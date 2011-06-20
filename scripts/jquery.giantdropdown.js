@@ -48,6 +48,9 @@
                 var $ul = $("<ul />");
                 $ul.addClass("giantdropdown");
 				
+				$ul.addClass($dropdown.attr("class"));
+				$ul.attr("style", $dropdown.attr("style"));
+				
 				if ($dropdown.attr("multiple"))
 					$ul.addClass("multiple");
 

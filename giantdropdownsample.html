@@ -13,7 +13,7 @@
  </head>
  <body>
   <h1>Single Select</h1>
-  <select name="single">
+  <select>
    <option value="" selected="selected">What type of element would you like to see?</option>
    <option value="1">A short one</option>
    <option value="2">One that is a little longer</option>
@@ -28,7 +28,7 @@
   </select>
 
   <h1>Single Select with Option Groups</h1>
-  <select name="single">
+  <select>
    <option value="" selected="selected">Please choose your favorite aircraft</option>
    <optgroup label="Piper">
 	   <option value="">Cub</option>
@@ -48,7 +48,7 @@
   </select>
 
   <h1>Multiple Select</h1>
-  <select multiple="multiple" name="multiple">
+  <select multiple="multiple">
    <option value="">What type of element would you like to see?</option>
    <option value="1">A short one</option>
    <option value="2">One that is a little longer</option>
@@ -60,6 +60,26 @@
    <option value="8">Short</option>
    <option value="9" selected="selected">Entheusiastic!</option>
    <option value="10">The last one</option>
+  </select>
+  
+  <h1>Custom Class</h1>
+  <select class="thumbtacks">
+   <option value="" selected="selected">Please choose your favorite aircraft</option>
+   <optgroup label="Piper">
+	   <option value="">Cub</option>
+	   <option value="">Warrior</option>
+	   <option value="">Archer</option>
+	   <option value="">Saratoga</option>
+   </optgroup>
+   <optgroup label="Cessna">
+	   <option value="">172</option>
+	   <option value="">172 RG</option>
+	   <option value="">182</option>
+   </optgroup>
+   <optgroup label="Aerobatic">
+   	   <option value="">Super Decathlon</option>
+	   <option value="">T-6</option>
+	</optgroup>
   </select>
  </body>
 </html>
